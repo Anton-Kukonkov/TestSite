@@ -1,0 +1,27 @@
+body {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background-color: rgb(141, 119, 119);
+}
+.header {
+   
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-around;
+   
+}
+.a{
+    font-size: 100px;
+}
+.link {
+    font-size: 30px;
+}
+.text{
+    font-size: 30px;
+}
+.dog {
+    width: 550px;
+    height: 400px
+}

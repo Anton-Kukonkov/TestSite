@@ -1,29 +1,47 @@
 
-h1 {
-    color: rgba(6, 2, 252, 0.664);
+    body {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        background-color: rgb(173, 173, 173);
+        background-image: url("dogs.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        backdrop-filter: blur(10px);
     }
-    h2 {
-    color: rgb(252, 1, 1)
+    .header {
+        display: flex;
+        align-self: flex-end;
+        justify-content: space-around;
+        color: rgba(255, 153, 0, 0.664);
+
     }
-    h3 {
-    color: rgb(25, 243, 6)
+    .a{
+        font-size: 50px;
     }
     .text {
         color: rgb(243, 6, 204);
-        border: 1px solid rgb(0, 0, 0);
-        width: 350px;
-        height: 40px
+        font-size: 50px;
         }
-    .dog {
-        width: 450px;
-        height: 300px
+    .link {
+        font-size: 50px;
     }
-    .dog2 {
-        width: 450px;
-        height: 300px
+   
+
+    .container {
+        display: flex;
+        padding-left: 50px;
+        padding-right: 50px;
+        flex-direction: row;
+        justify-content: space-around;
     }
-    body {
-        font-family: "Seymour One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    .one {
+        color: rgb(255, 0, 0)
+    }
+    .link_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
     }
